@@ -1,0 +1,59 @@
+Objective:  
+This project focuses on building a Programme GPA Calculator and PISS Management System. 
+The system will have a web interface connected to a database. It should store and manage data 
+for students, programmes, PISS, courses, grades, GPA, and target GPA calculations. The system 
+will be developed specifically for the CSE and CIT programmes only. Users should be able to 
+calculate their current GPA and determine what grades are needed to reach a target GPA. A super 
+user should be able to add and manage programme structures and PISS records. This project 
+should be done in groups of 6.  
+Project Tasks:  
+1. Entities and Attributes 
+Identify the entities needed for the system. Create a total of nine entities. Each entity should have 
+at least six attributes. Each entity must include a primary key. Use foreign keys to show 
+relationships where needed. 
+2. Normalization 
+Normalize the database to third Normal Form (3NF). Show the steps from UNF to 1NF, then to 
+2NF. Remove repeating data. Ensure all attributes depend on the full primary key. Use sample 
+data to show each stage. 
+3. ERD 
+Create an ERD using Crow’s Foot notation. Show all entities and attributes. Clearly label 
+primary and foreign keys. Show relationships and cardinalities. 
+4. Sample Data 
+Add at least three users to each table. Use realistic data. Include data for students, programmes 
+(CSE and CIT only), PISS, courses, grades, GPA, and target GPA requests. 
+5. Queries 
+Write SQL queries to retrieve data. Include: 
+● one-table query 
+● join query using two or more tables 
+● GPA calculation query 
+● target GPA calculation query 
+6. Stored Procedures 
+Create at least two stored procedures. 
+7. Trigger 
+Create at least one trigger. The trigger should automate a task. For example, it may update the 
+GPA record when a grade is added. Include the SQL code and a short explanation. 
+8. Web Development 
+Build a web dashboard using PHP and MySQL. 
+The system should include: 
+● signup 
+● login 
+● logout 
+● restricted access 
+Show the logged-in username on each page. 
+The GPA features should allow users to: 
+● enter grades 
+● calculate GPA 
+● enter a target GPA 
+● calculate required grades 
+All forms should validate input. Protect the system from SQL injection using prepared 
+statements.  
+Submission Guide: 
+● Select the link to the assignment 
+● Select Submission 
+● Submit a zipped file named CIT215_Project_GroupNo containing: 
+● Project Documentation 
+o Entity Relationship Diagram 
+o DatabaseName.sql (with dummy data) 
+o PHP Files (include all the php files) 
+o ReadMe.md with user log in details.  
+● Once your file appears in the File submission are click Save Changes.
